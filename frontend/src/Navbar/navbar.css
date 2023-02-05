@@ -1,0 +1,20 @@
+.header-container{
+    width: 100%;
+    /* position:fixed; */
+    background-image: linear-gradient(to right top, #051937, #19223b, #282b40, #353544, #403f49);
+    z-index: 9999;
+}
+.header{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 40px;
+}
+.header-list{
+    display: flex;
+    gap: 0px 10px;
+    font-size: 20px;
+}
+.header-item{
+    padding: 20px 40px;
+    color: white;    
+}
